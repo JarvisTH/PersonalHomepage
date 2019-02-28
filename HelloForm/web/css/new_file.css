@@ -1,0 +1,145 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	min-width: 963px;
+	max-width: 963px;
+	background: gainsboro;
+	margin:auto;
+	
+}
+
+.head{
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	background: #3B82CC;
+}
+
+.head img{
+	float: left;
+	padding: 20px;
+	height: 100%;
+}
+
+h1{
+	padding: 25px;
+	text-align: center;
+	color: ghostwhite;
+}
+
+.clearfix:after{
+	content: "";/*无内容*/
+	display: table;/*具有包裹性*/
+	clear: both;/*清除两边的浮动*/
+}
+
+.aside-left{
+	float: left;
+	background: lightgray;
+	max-width: 325px;
+	min-width: 280px;
+}
+
+.picture ul li{
+	float: left;
+}
+
+.head-sculpture{
+	height: 100px;
+	margin-top: 30px;
+	margin-left: 5px;
+}
+
+.big-head{
+	height: 140px;
+	visibility: hidden;
+	margin-left: 5px;
+}
+
+button{
+	width: 70px;
+	height: 20px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.nav li{
+	text-align: center;
+	margin-top: 10px;
+	border: 2px solid gainsboro;
+}
+
+a{
+	color: yellowgreen;
+}
+
+a:hover{
+	color: darkred;
+}
+
+.now{
+	margin-top: 10px;
+	text-align: center;
+}
+.now ul{
+	margin-top: 10px;
+	margin-left: 8px;
+}
+
+.now li img{
+	width: 30px;
+	float: left;
+}
+
+.conent-right{
+	margin-left: 330px;
+}
+
+.conent-right img{
+	width: 100%;
+}
+
+.left{
+	position: absolute;
+	width: 60px;
+	height: 100px;
+	background-color: rgba(100,100,100,0.3);
+	margin-top: 180px;
+	visibility: hidden;
+}
+
+.left img{
+	width: 100%;
+	height: 100%;
+}
+
+.right{
+	position: absolute;
+	width: 60px;
+	height: 100px;
+	background-color: rgba(100,100,100,0.3);
+	margin-top: 180px;
+	visibility: hidden;
+	margin-left: 574px;
+}
+
+.right img{
+	width: 100%;
+	height: 100%;
+}
+
+.footer-info{
+	height:85px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: gray;
+	text-align: center;
+}
